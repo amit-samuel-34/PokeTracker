@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move.h
+string
+-
+map
+-
+vector
+-
+
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move_Dictionary.cpp
+Move_Dictionary.h
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move_Dictionary.h
+
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move_Dictionary.h
+map
+-
+vector
+-
+fstream
+-
+iostream
+-
+sstream
+-
+Move.h
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move.h
+

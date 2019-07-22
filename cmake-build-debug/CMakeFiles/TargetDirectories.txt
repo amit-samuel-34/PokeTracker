@@ -1,0 +1,3 @@
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/cmake-build-debug/CMakeFiles/PokeTracker.dir
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
