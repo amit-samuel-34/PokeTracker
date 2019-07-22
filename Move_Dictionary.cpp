@@ -20,14 +20,12 @@ Move_Dictionary::Move_Dictionary() {
             line_space.push_back(word);
             //std::cout << word << " ";
         }
-        std::cout<< line_space[14];
-        std::cout<< "\n";
+//        for (int i = 0; i < 15; i++){
+//            std::cout << i << line_space[i] << "\n";
+//        }
 
-//          Move move(line_space[1],line_space[4],line_space[5],line_space[6],line_space[7],line_space[8],line_space[9],
-//          line_space[14]);
-//        for(std::string wor: line_space)
-//            std::cout << wor << ' ';
-//        std::cout << '\n';
+          Move move(line_space[1],stoi(line_space[4]),line_space[5],line_space[6],stoi(line_space[7])
+          ,stoi(line_space[8]),stoi(line_space[9]),line_space[14]);
     }
 
 }
