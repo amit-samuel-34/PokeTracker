@@ -49,7 +49,7 @@ void Pokemon::set_types(std::string new_type1, std::string new_type2) {
 
 void Pokemon::print_moves() {
     for(int i = 0; i < moves.size(); i++){
-        moves[i].print_stats();
+        moves[i]->print_stats();
     }
 
 }

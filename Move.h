@@ -28,13 +28,9 @@ public:
             int new_pp, int new_perc_status, std::string description);
     ~Move();
     void print_stats();
-    template <typename T>
-    static T get_move(T info){
-
-    }
-
-
-
+    std::string get_name();
+    int get_damage();
+    std::string get_type();
 };
 
 

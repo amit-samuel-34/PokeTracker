@@ -6,7 +6,7 @@
 #include <iostream>
 
 Move::Move(std::string new_name, int new_damage, std::string new_type, std::string new_category,int new_accuracy,
-           int new_pp, int new_perc_status, std::string description){
+           int new_pp, int new_perc_status, std::string description) {
 
     name = new_name;
     damage = new_damage;
@@ -19,11 +19,24 @@ Move::Move(std::string new_name, int new_damage, std::string new_type, std::stri
 
 }
 
-Move::~Move(){};
+Move::~Move() {};
 
 void Move::print_stats() {
 
     std::cout << "Name: " << name << "\n" << "Damage: " << damage << "\n" << "Type: " << type << "\n" << "Category: "
     << category <<  "\n" << "Accuracy: " << accuracy << "\n" << "PP: " << pp << "\n" << "Status Frequency: "
     << perc_status << "\n" << "Description: " << description <<"\n\n";
+}
+
+std::string Move::get_name() {
+    return name;
+}
+
+int Move::get_damage() {
+
+    return damage;
+}
+
+std::string Move::get_type() {
+    return type;
 }

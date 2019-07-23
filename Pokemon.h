@@ -15,7 +15,7 @@ class Pokemon {
     std::string name;
     std::string type1;
     std::string type2;
-    std::vector<Move> moves;
+    std::vector<Move*> moves;
     bool shiny;
 
 
