@@ -17,7 +17,7 @@ int main() {
 //    Metagross->learn_move("Earthquake", 100, "Ground", "Physical");
 
     Move_Dictionary move;
-    move.get_moves("METEORMASH");
+    move.show_moves("METEORMASH");
 
 
     //Metagross->print_moves();
@@ -30,7 +30,5 @@ int main() {
 }
 
 void change_name(Pokemon* pokemon){
-
     pokemon->set_name("Magmar");
-
 }

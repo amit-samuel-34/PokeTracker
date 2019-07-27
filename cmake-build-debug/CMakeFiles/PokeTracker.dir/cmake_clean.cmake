@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PokeTracker.dir/Pokemon.cpp.obj"
   "CMakeFiles/PokeTracker.dir/Move.cpp.obj"
   "CMakeFiles/PokeTracker.dir/Move_Dictionary.cpp.obj"
+  "CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.obj"
   "PokeTracker.pdb"
   "PokeTracker.exe"
   "PokeTracker.exe.manifest"

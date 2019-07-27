@@ -31,8 +31,10 @@ public:
     Move_Dictionary(void);
     ~Move_Dictionary();
 
-    void get_moves(int key);
-    void get_moves(std::string name);
+    void show_moves(int key);
+    void show_moves(std::string name);
+
+    Move* get_move(std::string name);
 };
 
 

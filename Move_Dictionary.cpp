@@ -34,7 +34,7 @@ Move_Dictionary::Move_Dictionary() {
 
 Move_Dictionary::~Move_Dictionary() {};
 
-void Move_Dictionary::get_moves(int key){
+void Move_Dictionary::show_moves(int key){
     std::vector<Move*> type_list;
     if(key < 18 && key > 0){
         type_list = by_type[type_map[key]];
@@ -51,7 +51,11 @@ void Move_Dictionary::get_moves(int key){
 }
 
 
-void Move_Dictionary::get_moves(std::string key){
+void Move_Dictionary::show_moves(std::string key){
     by_name[key]->print_stats();
+}
+
+Move* Move_Dictionary::get_move(std::string name) {
+    return by_name[name];
 }
 

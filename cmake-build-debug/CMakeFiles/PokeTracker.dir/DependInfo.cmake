@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move.cpp" "C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/cmake-build-debug/CMakeFiles/PokeTracker.dir/Move.cpp.obj"
   "C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move_Dictionary.cpp" "C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/cmake-build-debug/CMakeFiles/PokeTracker.dir/Move_Dictionary.cpp.obj"
+  "C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemom_Dictionary.cpp" "C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/cmake-build-debug/CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.obj"
   "C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon.cpp" "C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/cmake-build-debug/CMakeFiles/PokeTracker.dir/Pokemon.cpp.obj"
   "C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/main.cpp" "C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/cmake-build-debug/CMakeFiles/PokeTracker.dir/main.cpp.obj"
   )

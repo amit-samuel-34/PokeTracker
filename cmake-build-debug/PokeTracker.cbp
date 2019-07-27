@@ -92,6 +92,12 @@
 		<Unit filename="C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move_Dictionary.h">
 			<Option target="PokeTracker"/>
 		</Unit>
+		<Unit filename="C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemom_Dictionary.cpp">
+			<Option target="PokeTracker"/>
+		</Unit>
+		<Unit filename="C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemom_Dictionary.h">
+			<Option target="PokeTracker"/>
+		</Unit>
 		<Unit filename="C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon.cpp">
 			<Option target="PokeTracker"/>
 		</Unit>

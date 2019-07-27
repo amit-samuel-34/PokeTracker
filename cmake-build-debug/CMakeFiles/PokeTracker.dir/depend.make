@@ -8,6 +8,11 @@ CMakeFiles/PokeTracker.dir/Move_Dictionary.cpp.obj: ../Move.h
 CMakeFiles/PokeTracker.dir/Move_Dictionary.cpp.obj: ../Move_Dictionary.cpp
 CMakeFiles/PokeTracker.dir/Move_Dictionary.cpp.obj: ../Move_Dictionary.h
 
+CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.obj: ../Move.h
+CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.obj: ../Pokemom_Dictionary.cpp
+CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.obj: ../Pokemom_Dictionary.h
+CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.obj: ../Pokemon.h
+
 CMakeFiles/PokeTracker.dir/Pokemon.cpp.obj: ../Move.h
 CMakeFiles/PokeTracker.dir/Pokemon.cpp.obj: ../Pokemon.cpp
 CMakeFiles/PokeTracker.dir/Pokemon.cpp.obj: ../Pokemon.h

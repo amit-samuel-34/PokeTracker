@@ -4,11 +4,13 @@
 
 #include "Pokemon.h"
 
-Pokemon::Pokemon(std::string this_name, std::string this_type1, std::string this_type2, bool this_shiny){
-    name = this_name;
-    type1 = this_type1;
-    type2 = this_type2;
-    shiny = this_shiny;
+Pokemon::Pokemon(std::string name, std::string type1, int total_base, int hp_base,
+                 int attack_base, int defence_base, int sp_atk_base, int sp_def_base, int speed_base,
+                 int generation, bool legendary,std::string type2, bool shiny){
+    this->name = name;
+    this->type1 = type1;
+    this->type2 = type2;
+    this->shiny = shiny;
 }
 
 Pokemon::~Pokemon() {}
@@ -39,13 +41,20 @@ void Pokemon::set_types(std::string new_type1, std::string new_type2) {
     type2 = new_type2;
 }
 
-//void Pokemon::learn_move(std::string name) {
-//
-//    if(moves.size() == 4 && name.compare("Metagross"))
-//        std::cout << "Maximum moves reached \n\n";
-//    else
-//        moves.push_back();
-//}
+void Pokemon::learn_move(Move* move) {
+
+    if(moves.size() == 4 && name.compare("Metagross"))
+        std::cout << "Maximum moves reached \n\n";
+    else
+        moves.push_back(move);
+}
+
+void Pokemon::remove_move(std::string name) {
+    for(int i = 0; i < moves.size(); i++) {
+        if(moves[i]->get_name().compare(name) == 0)
+            moves.erase(moves.begin() + i);
+    }
+}
 
 void Pokemon::print_moves() {
     for(int i = 0; i < moves.size(); i++){

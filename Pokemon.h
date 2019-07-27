@@ -20,7 +20,9 @@ class Pokemon {
 
 
 public:
-    Pokemon(std::string name, std::string type1, std::string type2 = "none", bool shiny = false);
+    Pokemon(std::string name, std::string type1, int total_base, int hp_base,
+            int attack_base, int defence_base, int sp_atk_base, int sp_def_base, int speed_base,
+            int generation, bool legendary, std::string type2 = "none", bool shiny = false);
     ~Pokemon();
 
     void print_pokemon();
@@ -31,8 +33,10 @@ public:
     void set_name(std::string new_name);
     void set_types(std::string new_type1, std::string new_type2);
 
-    void learn_move(std::string name);
+    void learn_move(Move* move);
+    void remove_move(std::string name);
     void print_moves();
+
 
 };
 
