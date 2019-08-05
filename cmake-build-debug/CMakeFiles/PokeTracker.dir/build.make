@@ -108,18 +108,18 @@ CMakeFiles/PokeTracker.dir/Move_Dictionary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PokeTracker.dir/Move_Dictionary.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\amits\.CLion2018.2\CLionProjects\C++\PokeTracker\Move_Dictionary.cpp -o CMakeFiles\PokeTracker.dir\Move_Dictionary.cpp.s
 
-CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.obj: CMakeFiles/PokeTracker.dir/flags.make
-CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.obj: ../Pokemom_Dictionary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\amits\.CLion2018.2\CLionProjects\C++\PokeTracker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PokeTracker.dir\Pokemom_Dictionary.cpp.obj -c C:\Users\amits\.CLion2018.2\CLionProjects\C++\PokeTracker\Pokemom_Dictionary.cpp
+CMakeFiles/PokeTracker.dir/Pokemon_Dictionary.cpp.obj: CMakeFiles/PokeTracker.dir/flags.make
+CMakeFiles/PokeTracker.dir/Pokemon_Dictionary.cpp.obj: ../Pokemon_Dictionary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\amits\.CLion2018.2\CLionProjects\C++\PokeTracker\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PokeTracker.dir/Pokemon_Dictionary.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PokeTracker.dir\Pokemon_Dictionary.cpp.obj -c C:\Users\amits\.CLion2018.2\CLionProjects\C++\PokeTracker\Pokemon_Dictionary.cpp
 
-CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\amits\.CLion2018.2\CLionProjects\C++\PokeTracker\Pokemom_Dictionary.cpp > CMakeFiles\PokeTracker.dir\Pokemom_Dictionary.cpp.i
+CMakeFiles/PokeTracker.dir/Pokemon_Dictionary.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PokeTracker.dir/Pokemon_Dictionary.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\amits\.CLion2018.2\CLionProjects\C++\PokeTracker\Pokemon_Dictionary.cpp > CMakeFiles\PokeTracker.dir\Pokemon_Dictionary.cpp.i
 
-CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\amits\.CLion2018.2\CLionProjects\C++\PokeTracker\Pokemom_Dictionary.cpp -o CMakeFiles\PokeTracker.dir\Pokemom_Dictionary.cpp.s
+CMakeFiles/PokeTracker.dir/Pokemon_Dictionary.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PokeTracker.dir/Pokemon_Dictionary.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\amits\.CLion2018.2\CLionProjects\C++\PokeTracker\Pokemon_Dictionary.cpp -o CMakeFiles\PokeTracker.dir\Pokemon_Dictionary.cpp.s
 
 # Object files for target PokeTracker
 PokeTracker_OBJECTS = \
@@ -127,7 +127,7 @@ PokeTracker_OBJECTS = \
 "CMakeFiles/PokeTracker.dir/Pokemon.cpp.obj" \
 "CMakeFiles/PokeTracker.dir/Move.cpp.obj" \
 "CMakeFiles/PokeTracker.dir/Move_Dictionary.cpp.obj" \
-"CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.obj"
+"CMakeFiles/PokeTracker.dir/Pokemon_Dictionary.cpp.obj"
 
 # External object files for target PokeTracker
 PokeTracker_EXTERNAL_OBJECTS =
@@ -136,7 +136,7 @@ PokeTracker.exe: CMakeFiles/PokeTracker.dir/main.cpp.obj
 PokeTracker.exe: CMakeFiles/PokeTracker.dir/Pokemon.cpp.obj
 PokeTracker.exe: CMakeFiles/PokeTracker.dir/Move.cpp.obj
 PokeTracker.exe: CMakeFiles/PokeTracker.dir/Move_Dictionary.cpp.obj
-PokeTracker.exe: CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.obj
+PokeTracker.exe: CMakeFiles/PokeTracker.dir/Pokemon_Dictionary.cpp.obj
 PokeTracker.exe: CMakeFiles/PokeTracker.dir/build.make
 PokeTracker.exe: CMakeFiles/PokeTracker.dir/linklibs.rsp
 PokeTracker.exe: CMakeFiles/PokeTracker.dir/objects1.rsp

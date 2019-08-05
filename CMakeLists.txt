@@ -3,4 +3,4 @@ project(PokeTracker)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(PokeTracker main.cpp Pokemon.cpp Pokemon.h Move.cpp Move.h Move_Dictionary.cpp Move_Dictionary.h Pokemom_Dictionary.cpp Pokemom_Dictionary.h)
+add_executable(PokeTracker main.cpp Pokemon.cpp Pokemon.h Move.cpp Move.h Move_Dictionary.cpp Move_Dictionary.h Pokemon_Dictionary.cpp Pokemon_Dictionary.h)

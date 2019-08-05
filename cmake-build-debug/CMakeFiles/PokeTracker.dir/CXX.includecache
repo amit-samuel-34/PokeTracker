@@ -30,11 +30,25 @@ sstream
 Move.h
 C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move.h
 
-C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemom_Dictionary.cpp
-Pokemom_Dictionary.h
-C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemom_Dictionary.h
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon.cpp
+Pokemon.h
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon.h
 
-C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemom_Dictionary.h
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon.h
+string
+-
+vector
+-
+iostream
+-
+Move.h
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move.h
+
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon_Dictionary.cpp
+Pokemon_Dictionary.h
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon_Dictionary.h
+
+C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon_Dictionary.h
 map
 -
 vector
@@ -49,20 +63,6 @@ sstream
 -
 Pokemon.h
 C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon.h
-
-C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon.cpp
-Pokemon.h
-C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon.h
-
-C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon.h
-string
--
-vector
--
-iostream
--
-Move.h
-C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move.h
 
 C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/main.cpp
 iostream

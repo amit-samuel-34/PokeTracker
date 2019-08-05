@@ -176,33 +176,6 @@ Move_Dictionary.cpp.s:
 	$(MAKE) -f CMakeFiles\PokeTracker.dir\build.make CMakeFiles/PokeTracker.dir/Move_Dictionary.cpp.s
 .PHONY : Move_Dictionary.cpp.s
 
-Pokemom_Dictionary.obj: Pokemom_Dictionary.cpp.obj
-
-.PHONY : Pokemom_Dictionary.obj
-
-# target to build an object file
-Pokemom_Dictionary.cpp.obj:
-	$(MAKE) -f CMakeFiles\PokeTracker.dir\build.make CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.obj
-.PHONY : Pokemom_Dictionary.cpp.obj
-
-Pokemom_Dictionary.i: Pokemom_Dictionary.cpp.i
-
-.PHONY : Pokemom_Dictionary.i
-
-# target to preprocess a source file
-Pokemom_Dictionary.cpp.i:
-	$(MAKE) -f CMakeFiles\PokeTracker.dir\build.make CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.i
-.PHONY : Pokemom_Dictionary.cpp.i
-
-Pokemom_Dictionary.s: Pokemom_Dictionary.cpp.s
-
-.PHONY : Pokemom_Dictionary.s
-
-# target to generate assembly for a file
-Pokemom_Dictionary.cpp.s:
-	$(MAKE) -f CMakeFiles\PokeTracker.dir\build.make CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.s
-.PHONY : Pokemom_Dictionary.cpp.s
-
 Pokemon.obj: Pokemon.cpp.obj
 
 .PHONY : Pokemon.obj
@@ -229,6 +202,33 @@ Pokemon.s: Pokemon.cpp.s
 Pokemon.cpp.s:
 	$(MAKE) -f CMakeFiles\PokeTracker.dir\build.make CMakeFiles/PokeTracker.dir/Pokemon.cpp.s
 .PHONY : Pokemon.cpp.s
+
+Pokemon_Dictionary.obj: Pokemon_Dictionary.cpp.obj
+
+.PHONY : Pokemon_Dictionary.obj
+
+# target to build an object file
+Pokemon_Dictionary.cpp.obj:
+	$(MAKE) -f CMakeFiles\PokeTracker.dir\build.make CMakeFiles/PokeTracker.dir/Pokemon_Dictionary.cpp.obj
+.PHONY : Pokemon_Dictionary.cpp.obj
+
+Pokemon_Dictionary.i: Pokemon_Dictionary.cpp.i
+
+.PHONY : Pokemon_Dictionary.i
+
+# target to preprocess a source file
+Pokemon_Dictionary.cpp.i:
+	$(MAKE) -f CMakeFiles\PokeTracker.dir\build.make CMakeFiles/PokeTracker.dir/Pokemon_Dictionary.cpp.i
+.PHONY : Pokemon_Dictionary.cpp.i
+
+Pokemon_Dictionary.s: Pokemon_Dictionary.cpp.s
+
+.PHONY : Pokemon_Dictionary.s
+
+# target to generate assembly for a file
+Pokemon_Dictionary.cpp.s:
+	$(MAKE) -f CMakeFiles\PokeTracker.dir\build.make CMakeFiles/PokeTracker.dir/Pokemon_Dictionary.cpp.s
+.PHONY : Pokemon_Dictionary.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -272,12 +272,12 @@ help:
 	@echo ... Move_Dictionary.obj
 	@echo ... Move_Dictionary.i
 	@echo ... Move_Dictionary.s
-	@echo ... Pokemom_Dictionary.obj
-	@echo ... Pokemom_Dictionary.i
-	@echo ... Pokemom_Dictionary.s
 	@echo ... Pokemon.obj
 	@echo ... Pokemon.i
 	@echo ... Pokemon.s
+	@echo ... Pokemon_Dictionary.obj
+	@echo ... Pokemon_Dictionary.i
+	@echo ... Pokemon_Dictionary.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

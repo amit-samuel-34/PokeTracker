@@ -8,15 +8,15 @@ CMakeFiles/PokeTracker.dir/Move_Dictionary.cpp.obj
  C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move.h
  C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move_Dictionary.cpp
  C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move_Dictionary.h
-CMakeFiles/PokeTracker.dir/Pokemom_Dictionary.cpp.obj
- C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move.h
- C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemom_Dictionary.cpp
- C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemom_Dictionary.h
- C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon.h
 CMakeFiles/PokeTracker.dir/Pokemon.cpp.obj
  C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move.h
  C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon.cpp
  C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon.h
+CMakeFiles/PokeTracker.dir/Pokemon_Dictionary.cpp.obj
+ C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move.h
+ C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon.h
+ C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon_Dictionary.cpp
+ C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Pokemon_Dictionary.h
 CMakeFiles/PokeTracker.dir/main.cpp.obj
  C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move.h
  C:/Users/amits/.CLion2018.2/CLionProjects/C++/PokeTracker/Move_Dictionary.h
