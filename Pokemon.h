@@ -49,6 +49,11 @@ public:
     void print_moves();
 
     std::string get_name();
+    std::string get_type1();
+    std::string get_type2();
+    int get_gen();
+    int get_index();
+    std::string get_legendary();
 
     void set_nickname(std::string new_name);
     void set_stat(int index, int new_stat);

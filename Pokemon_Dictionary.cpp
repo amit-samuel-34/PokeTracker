@@ -22,6 +22,13 @@ Pokemon_Dictionary::Pokemon_Dictionary() {
         pokemon = new Pokemon(stoi(line_space[0]), line_space[1], line_space[2], stoi(line_space[4]), stoi(line_space[5]),
                 stoi(line_space[6]), stoi(line_space[7]), stoi(line_space[8]), stoi(line_space[9]), stoi(line_space[10]),
                 stoi(line_space[11]), line_space[12], line_space[3]);
+        by_type[pokemon->get_type1()].push_back(pokemon);
+        if(!pokemon->get_type2().empty()) by_type[pokemon->get_type2()].push_back(pokemon);
+        by_name[pokemon->get_name()] = pokemon;
+        by_gen[pokemon->get_gen()].push_back(pokemon);
+        by_index[pokemon->get_index()] = pokemon;
+        if(pokemon->get_legendary().compare("TRUE")) legends.push_back(pokemon);
+
 
 
 

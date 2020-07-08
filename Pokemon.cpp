@@ -69,6 +69,26 @@ std::string Pokemon::get_name(){
     return name;
 }
 
+std::string Pokemon::get_type1() {
+    return type1;
+}
+
+std::string Pokemon::get_type2() {
+    return type2;
+}
+
+int Pokemon::get_gen() {
+    return generation;
+}
+
+int Pokemon::get_index() {
+    return index;
+}
+
+std::string Pokemon::get_legendary() {
+    return legendary;
+}
+
 
 
 void Pokemon::set_nickname(std::string new_name){

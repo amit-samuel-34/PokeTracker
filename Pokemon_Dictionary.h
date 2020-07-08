@@ -15,11 +15,11 @@
 
 class Pokemon_Dictionary {
 
-    std::map<std::string, std::vector<Pokemon>> by_type;
-    std::map<std::string, Pokemon> by_name;
-    std::map<int, std::vector<Pokemon>> by_gen;
-    std::map<int, Pokemon> by_index;
-    std::vector<Pokemon> legends;
+    std::map<std::string, std::vector<Pokemon*>> by_type; //Maps a type to a list of pokemon
+    std::map<std::string, Pokemon*> by_name; //Maps a name to a pokemon object
+    std::map<int, std::vector<Pokemon*>> by_gen; //Map a generation to a list of pokemon
+    std::map<int, Pokemon*> by_index; //Maps a pokedex number to a pokemon
+    std::vector<Pokemon*> legends; //List of legendary pokemon
 
 public:
     Pokemon_Dictionary(void);

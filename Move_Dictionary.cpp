@@ -34,16 +34,17 @@ Move_Dictionary::Move_Dictionary() {
 
 Move_Dictionary::~Move_Dictionary() {};
 
+// Shows the moves based on type and damage
 void Move_Dictionary::show_moves(int key){
-    std::vector<Move*> type_list;
-    if(key < 18 && key > 0){
-        type_list = by_type[type_map[key]];
-        for(Move* move : type_list){
+    std::vector<Move*> list;
+    if(key < 18 && key > 0){ //checks if want to see moves of the same type
+        list = by_type[type_map[key]];
+        for(Move* move : list){
             move->print_stats();
         }
-    }else{
-        type_list = by_damage[key];
-        for(Move* move : type_list){
+    }else{ //checks if want to see moves of the same damage output
+        list = by_damage[key];
+        for(Move* move : list){
             move->print_stats();
         }
 
@@ -51,10 +52,13 @@ void Move_Dictionary::show_moves(int key){
 }
 
 
+// Shows and individual move of a certain name
 void Move_Dictionary::show_moves(std::string key){
     by_name[key]->print_stats();
 }
 
+
+// Finds a move object by the name
 Move* Move_Dictionary::get_move(std::string name) {
     return by_name[name];
 }
